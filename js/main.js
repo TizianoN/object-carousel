@@ -70,7 +70,7 @@ slides.forEach((slide, index) => {
     </div>`;
 
     thumbsContainerEl.innerHTML += `
-    <div class="col thumb" data-index="${index}">
+    <div class="thumb" data-index="${index}">
         <img src="./${slide.image}">
     </div>
     `;
@@ -134,7 +134,7 @@ const autoplay = setInterval(() => {
         onPrevClick();
     }
 
-}, 1000);
+}, 3000);
 
 // * STOP AUTOPLAY
 stopAutoplayButton.addEventListener("click", () => {
